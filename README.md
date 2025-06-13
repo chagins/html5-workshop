@@ -1,3 +1,3 @@
 # html-workshop
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/chagins/html-workshop)
+- 🚀 [demo](https://chagins.github.io/html5-workshop)
