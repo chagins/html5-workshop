@@ -2,11 +2,22 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
+  height: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
+}
+
+header {
+  flex: 0 0 auto;
 }
 
 nav {
@@ -38,9 +49,17 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+  flex: 1 1 auto;
 }
 
 h1 {
+  margin: 0;
+  text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+footer {
+  margin-top: auto;
+  flex: 0 0 auto;
 }
